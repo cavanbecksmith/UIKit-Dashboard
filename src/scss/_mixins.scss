@@ -1,0 +1,9 @@
+@mixin size($w, $h) {
+	width: $w;
+	height: $h;
+}
+
+@mixin position($t,$l){
+	top: $t;
+	left: $l;
+}
